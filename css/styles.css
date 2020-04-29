@@ -5,6 +5,9 @@
 
 
 /*-----------------contenedor general-----------------*/
+body {
+    overflow: hidden;  
+  }
 .contenedor-microondas{
   /*background-color: rgb(255, 255, 255);*/
    width: 100%;
@@ -40,9 +43,9 @@
    flex-direction: column-reverse;
    align-items: flex-start;
    cursor: pointer;
-    transform-origin: bottom;
-    transition: all 0.5s ease-in-out;
-}
+   transform-origin: bottom;
+   transition: all 0.5s ease-in-out;
+   }
 
 
 .microondas-central h6{
@@ -51,7 +54,7 @@
  }
  /*-----------------panel izquierdo-----------------*/
 .microondas-lateral{
-    width: 15%;
+    width: 20%;
     height: 100%;
     background-color: rgb(215,215,215);
     border-left: black 2px solid;
@@ -101,10 +104,10 @@
   /*background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(183, 232, 252),#20cbff);*/
   background-origin: border-box;
   background-clip: content-box, border-box;
-  width: 60%;
-  height: 15%; 
+  width: 55%;
+  height: 20%; 
   cursor: pointer;
-  margin-top: 2px;
+  margin-top: 3px;
   margin-bottom: 2px;
   transition: all 1.5s ease-in-out;
 }
@@ -116,11 +119,11 @@
 }
 .bs{
     width: 30%;
-    height: 20%;
+    height: 25%;
     /*border: rgb(93, 192, 231) 1px solid;*/
     border-radius: 50%;
     margin: 1px;
-    font-size: 10px;
+    font-size: 12px;
 }
 /*-----------------panel izquierdo>contenedor del menu>botones inferiores-----------------*/
 .botones-inferiores{
@@ -145,7 +148,7 @@
     /*border: rgb(93, 192, 231) 1px solid;*/
     border-radius: 25%;
     margin: 2px;
-    font-size: 10px;
+    font-size: 12px;
 }
 /*-----------------hover para los botones-----------------*/
 .be:hover,.bi:hover,.bs:hover{
