@@ -1,4 +1,5 @@
 
+
 @media screen and (max-width: 600px) {
     /*--------------botones inferiores----------------*/
     .bi {
@@ -38,6 +39,15 @@
     .be {
       height: 40%;
       
+    }
+    /*-----------------boton giratorio-----------------*/
+    .boton-redondo{
+ 
+     width: 40%;
+     height: 25%; 
+     margin-top: 5px;
+     margin-bottom: 5px;
+  
     }
   
   }
