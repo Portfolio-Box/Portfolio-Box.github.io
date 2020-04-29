@@ -1,7 +1,4 @@
-
-
-
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     /*--------------botones inferiores----------------*/
     .bi {
       height: 15%;
@@ -45,7 +42,8 @@
     }
     /*--------------botones encendido----------------*/
     .be {
-      height: 40%;
+      height: 60%;
+      width: 45%;
       
     }
     /*-----------------boton giratorio-----------------*/
@@ -59,3 +57,4 @@
     }
   
   }
+
