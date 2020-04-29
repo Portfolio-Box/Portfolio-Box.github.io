@@ -58,13 +58,19 @@
   
   }
   @media only screen and (max-width: 736px) and (orientation: landscape){
+     /*--------------todo el microondas----------------*/
     .microondas{
       width: 630px;
       height: 310px;
     }
+     /*--------------visor----------------*/
+    .visor{
+      height: 10%;
+    }
+     /*--------------contenedor de la marca----------------*/
     .marca{
       height: 10%;
-      margin-bottom: 3px;
+      margin-bottom: 5px;
     }
     /*--------------parte lateral derecha del microondas----------------*/
     .microondas-lateral{
