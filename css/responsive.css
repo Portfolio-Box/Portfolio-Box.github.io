@@ -8,12 +8,36 @@
     .bs {
       width: 35%;
       height: 30%;
-      font-size: 9px;
+      
       
     }
     /*--------------botones encendido----------------*/
     .be {
       height: 35%;
+    }
+  
+  }
+  @media screen and (max-width: 415px) {
+    .microondas-lateral{
+      width: 20%;
+    
+   }
+    /*--------------botones inferiores----------------*/
+    .bi {
+      height: 15%;
+      
+    }
+    /*--------------botones superiores----------------*/
+    .bs {
+      width: 40%;
+      height: 35%;
+      
+      
+    }
+    /*--------------botones encendido----------------*/
+    .be {
+      height: 40%;
+      
     }
   
   }
